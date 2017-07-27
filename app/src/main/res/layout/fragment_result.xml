@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.upadhyay.nilay.driver.UserInterface.PlaceBid">
+
+    <ImageView
+        android:id="@+id/iv_backgroundW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView style= "@style/TextAppearance.AppCompat.Headline"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/result" />
+</RelativeLayout>
